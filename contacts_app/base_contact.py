@@ -11,4 +11,5 @@ class BaseContact:
 
     @property
     def label_length(self):
-        return len(f"{self.first_name} {self.last_name}")
+     return len(self.first_name + self.last_name)
+
